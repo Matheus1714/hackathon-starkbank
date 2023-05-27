@@ -35,8 +35,8 @@ function BasicLayout({ image, children }) {
       <DefaultNavbar
         action={{
           type: "external",
-          route: "https://creative-tim.com/product/material-dashboard-react",
-          label: "free download",
+          route: "https://github.com/Matheus1714/hackathon-starkbank",
+          label: "Projeto Github",
           color: "dark",
         }}
       />

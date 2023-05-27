@@ -48,22 +48,22 @@ function Cover() {
           textAlign="center"
         >
           <MDTypography variant="h4" fontWeight="medium" color="white" mt={1}>
-            Join us today
+            Junte-se a nós
           </MDTypography>
           <MDTypography display="block" variant="button" color="white" my={1}>
-            Enter your email and password to register
+            Entre com email e senha para se registrar
           </MDTypography>
         </MDBox>
         <MDBox pt={4} pb={3} px={3}>
           <MDBox component="form" role="form">
             <MDBox mb={2}>
-              <MDInput type="text" label="Name" variant="standard" fullWidth />
+              <MDInput type="text" label="Nome" variant="standard" fullWidth />
             </MDBox>
             <MDBox mb={2}>
               <MDInput type="email" label="Email" variant="standard" fullWidth />
             </MDBox>
             <MDBox mb={2}>
-              <MDInput type="password" label="Password" variant="standard" fullWidth />
+              <MDInput type="password" label="Senha" variant="standard" fullWidth />
             </MDBox>
             <MDBox display="flex" alignItems="center" ml={-1}>
               <Checkbox />
@@ -73,7 +73,7 @@ function Cover() {
                 color="text"
                 sx={{ cursor: "pointer", userSelect: "none", ml: -1 }}
               >
-                &nbsp;&nbsp;I agree the&nbsp;
+                &nbsp;&nbsp;Eu aceito os&nbsp;
               </MDTypography>
               <MDTypography
                 component="a"
@@ -83,7 +83,7 @@ function Cover() {
                 color="info"
                 textGradient
               >
-                Terms and Conditions
+                Termos e Condições
               </MDTypography>
             </MDBox>
             <MDBox mt={4} mb={1}>
@@ -93,7 +93,7 @@ function Cover() {
             </MDBox>
             <MDBox mt={3} mb={1} textAlign="center">
               <MDTypography variant="button" color="text">
-                Already have an account?{" "}
+                Você já tem uma conta?{" "}
                 <MDTypography
                   component={Link}
                   to="/authentication/sign-in"
@@ -102,7 +102,7 @@ function Cover() {
                   fontWeight="medium"
                   textGradient
                 >
-                  Sign In
+                  Entrar
                 </MDTypography>
               </MDTypography>
             </MDBox>
