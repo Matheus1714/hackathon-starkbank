@@ -13,3 +13,10 @@ Esta é uma API desenvolvida em Flask para a obtenção da cotação da criptomo
 
 ## Endpoint
 Faça as requisições para o endpoint a seguir utilizando o método ![GET](https://img.shields.io/badge/GET-brightgreen)
+
+### Request
+
+`GET` `https://apistarkcoin.julio-jj3.repl.co/APIStarkcoin`
+
+![required](https://img.shields.io/badge/Importante:-red)
+
