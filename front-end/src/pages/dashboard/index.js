@@ -57,99 +57,99 @@ function Dashboard() {
   };
 
   return (
-    <DashboardLayout>
-      <p>{data}</p>
-    </DashboardLayout>
     // <DashboardLayout>
-    //   <MDBox py={3}>
-    //     <Grid container spacing={3}>
-    //       <Grid item xs={12} md={6} lg={3}>
-    //         <MDBox mb={1.5}>
-    //           <ComplexStatisticsCard
-    //             color="dark"
-    //             icon="sell"
-    //             title="Crédito"
-    //             count="R$ 1000,00"
-    //             percentage={{
-    //               color: "success",
-    //               amount: "+2.2%",
-    //               label: "rendimento",
-    //             }}
-    //           />
-    //         </MDBox>
-    //       </Grid>
-    //       <Grid item xs={12} md={6} lg={3}>
-    //         <MDBox mb={1.5}>
-    //           <ComplexStatisticsCard
-    //             icon="monetization_on"
-    //             title="StarkCoins"
-    //             count="10,00"
-    //             percentage={{
-    //               color: "success",
-    //               amount: "+3.7%",
-    //               label: "rendimento",
-    //             }}
-    //           />
-    //         </MDBox>
-    //       </Grid>
-    //       <Grid item xs={12} md={6} lg={3}>
-    //         <MDBox mb={1.5}>
-    //           <ComplexStatisticsCard
-    //             color="success"
-    //             icon="account_balance"
-    //             title="Débito"
-    //             count="R$ 2031,00"
-    //             percentage={{
-    //               color: "success",
-    //               amount: "+1%",
-    //               label: "rendimento",
-    //             }}
-    //           />
-    //         </MDBox>
-    //       </Grid>
-    //       <Grid item xs={12} md={6} lg={3}>
-    //         <MDBox mb={1.5}>
-    //           <ComplexStatisticsCard
-    //             color="primary"
-    //             icon="send"
-    //             title="Transações"
-    //             count="213"
-    //             percentage={{
-    //               color: "success",
-    //               amount: "",
-    //               label: "",
-    //             }}
-    //           />
-    //         </MDBox>
-    //       </Grid>
-    //     </Grid>
-    //     <MDBox mt={4.5}>
-    //       <Grid container spacing={1}>
-    //         <Grid item xs={12} md={6} lg={4}>
-    //           <MDBox mb={3}>
-    //             <ReportsLineChart
-    //               color="dark"
-    //               title="Rendimento StarkCoin"
-    //               description="Rendimento diário"
-    //               date={getDate()}
-    //               chart={tasks}
-    //             />
-    //           </MDBox>
-    //         </Grid>
-    //       </Grid>
-    //     </MDBox>
-    //     {/* <MDBox>
-    //       <Grid container spacing={3}>
-    //         <Grid item xs={12} md={6} lg={8}>
-    //           <Projects />
-    //         </Grid>
-    //         <Grid item xs={12} md={6} lg={4}>
-    //           <OrdersOverview />
-    //         </Grid>
-    //       </Grid>
-    //     </MDBox> */}
-    //   </MDBox>
+    //   <p>{data}</p>
     // </DashboardLayout>
+    <DashboardLayout>
+      <MDBox py={3}>
+        <Grid container spacing={3}>
+          <Grid item xs={12} md={6} lg={3}>
+            <MDBox mb={1.5}>
+              <ComplexStatisticsCard
+                color="dark"
+                icon="sell"
+                title="Crédito"
+                count="R$ 1000,00"
+                percentage={{
+                  color: "success",
+                  amount: "+2.2%",
+                  label: "rendimento",
+                }}
+              />
+            </MDBox>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <MDBox mb={1.5}>
+              <ComplexStatisticsCard
+                icon="monetization_on"
+                title="StarkCoins"
+                count="10,00"
+                percentage={{
+                  color: "success",
+                  amount: "+3.7%",
+                  label: "rendimento",
+                }}
+              />
+            </MDBox>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <MDBox mb={1.5}>
+              <ComplexStatisticsCard
+                color="success"
+                icon="account_balance"
+                title="Débito"
+                count="R$ 2031,00"
+                percentage={{
+                  color: "success",
+                  amount: "+1%",
+                  label: "rendimento",
+                }}
+              />
+            </MDBox>
+          </Grid>
+          <Grid item xs={12} md={6} lg={3}>
+            <MDBox mb={1.5}>
+              <ComplexStatisticsCard
+                color="primary"
+                icon="send"
+                title="Transações"
+                count="213"
+                percentage={{
+                  color: "success",
+                  amount: "",
+                  label: "",
+                }}
+              />
+            </MDBox>
+          </Grid>
+        </Grid>
+        <MDBox mt={4.5}>
+          <Grid container spacing={1}>
+            <Grid item xs={12} md={6} lg={4}>
+              <MDBox mb={3}>
+                <ReportsLineChart
+                  color="dark"
+                  title="Rendimento StarkCoin"
+                  description="Rendimento diário"
+                  date={getDate()}
+                  chart={tasks}
+                />
+              </MDBox>
+            </Grid>
+          </Grid>
+        </MDBox>
+        {/* <MDBox>
+          <Grid container spacing={3}>
+            <Grid item xs={12} md={6} lg={8}>
+              <Projects />
+            </Grid>
+            <Grid item xs={12} md={6} lg={4}>
+              <OrdersOverview />
+            </Grid>
+          </Grid>
+        </MDBox> */}
+      </MDBox>
+    </DashboardLayout>
   );
 }
 
