@@ -121,7 +121,11 @@ export default function App() {
 
       return null;
     });
-
+  const getRoutesSideBar = (allRoutes) => {
+    let finalRoutes = [];
+    for (let route of allRoutes) if (!route.route.includes("auth")) finalRoutes.push(route);
+    return finalRoutes;
+  };
   const configsButton = (
     <MDBox
       display="flex"
@@ -156,7 +160,7 @@ export default function App() {
               color={sidenavColor}
               brand={(transparentSidenav && !darkMode) || whiteSidenav ? brandDark : brandWhite}
               brandName="Stark Bank"
-              routes={routes}
+              routes={getRoutesSideBar(routes)}
               onMouseEnter={handleOnMouseEnter}
               onMouseLeave={handleOnMouseLeave}
             />
@@ -180,7 +184,7 @@ export default function App() {
             color={sidenavColor}
             brand={(transparentSidenav && !darkMode) || whiteSidenav ? brandDark : brandWhite}
             brandName="Stark Bank"
-            routes={routes}
+            routes={getRoutesSideBar(routes)}
             onMouseEnter={handleOnMouseEnter}
             onMouseLeave={handleOnMouseLeave}
           />
@@ -191,7 +195,7 @@ export default function App() {
       {layout === "vr" && <Configurator />}
       <Routes>
         {getRoutes(routes)}
-        <Route path="*" element={<Navigate to="/authentication/sign-up" />} />
+        <Route path="*" element={<Navigate to="/authentication/sign-in" />} />
       </Routes>
     </ThemeProvider>
   );

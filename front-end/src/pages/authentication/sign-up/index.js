@@ -87,8 +87,8 @@ function Cover() {
               </MDTypography>
             </MDBox>
             <MDBox mt={4} mb={1}>
-              <MDButton variant="gradient" color="info" fullWidth>
-                sign in
+              <MDButton variant="gradient" color="info" href="/authentication/sign-in" fullWidth>
+                Entrar
               </MDButton>
             </MDBox>
             <MDBox mt={3} mb={1} textAlign="center">

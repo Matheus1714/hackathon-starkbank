@@ -54,7 +54,6 @@ import team4 from "assets/images/team-4.jpg";
 function Overview() {
   return (
     <DashboardLayout>
-      <DashboardNavbar />
       <MDBox mb={2} />
       <Header>
         <MDBox mt={5} mb={3}>

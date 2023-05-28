@@ -44,6 +44,9 @@ import Notifications from "layouts/notifications";
 import Profile from "pages/profile";
 import SignIn from "pages/authentication/sign-in";
 import SignUp from "pages/authentication/sign-up";
+import Buy from "pages/buy";
+import Sell from "pages/sell";
+import LimitIncrease from "pages/limitincrease";
 
 // @mui icons
 import Icon from "@mui/material/Icon";
@@ -57,38 +60,6 @@ const routes = [
     route: "/dashboard",
     component: <Dashboard />,
   },
-  // {
-  //   type: "collapse",
-  //   name: "Tables",
-  //   key: "tables",
-  //   icon: <Icon fontSize="small">table_view</Icon>,
-  //   route: "/tables",
-  //   component: <Tables />,
-  // },
-  // {
-  //   type: "collapse",
-  //   name: "Billing",
-  //   key: "billing",
-  //   icon: <Icon fontSize="small">receipt_long</Icon>,
-  //   route: "/billing",
-  //   component: <Billing />,
-  // },
-  // {
-  //   type: "collapse",
-  //   name: "RTL",
-  //   key: "rtl",
-  //   icon: <Icon fontSize="small">format_textdirection_r_to_l</Icon>,
-  //   route: "/rtl",
-  //   component: <RTL />,
-  // },
-  // {
-  //   type: "collapse",
-  //   name: "Notifications",
-  //   key: "notifications",
-  //   icon: <Icon fontSize="small">notifications</Icon>,
-  //   route: "/notifications",
-  //   component: <Notifications />,
-  // },
   {
     type: "collapse",
     name: "Profile",
@@ -112,6 +83,30 @@ const routes = [
     icon: <Icon fontSize="small">assignment</Icon>,
     route: "/authentication/sign-up",
     component: <SignUp />,
+  },
+  {
+    type: "collapse",
+    name: "Venda",
+    key: "sell",
+    icon: <Icon fontSize="small">assignment</Icon>,
+    route: "/sell",
+    component: <Sell />,
+  },
+  {
+    type: "collapse",
+    name: "Compra",
+    key: "buy",
+    icon: <Icon fontSize="small">assignment</Icon>,
+    route: "/buy",
+    component: <Buy />,
+  },
+  {
+    type: "collapse",
+    name: "Aumento de Limite",
+    key: "limitincrease",
+    icon: <Icon fontSize="small">assignment</Icon>,
+    route: "/limitincrease",
+    component: <LimitIncrease />,
   },
 ];
 
