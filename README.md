@@ -1,12 +1,13 @@
 # Projeto Starkbank Coin (STC)
 
-O Projeto StarkCoin é um app de acessoria de crétido para cripto ativos da [StarkBank](https://starkbank.com/) voltado para usuários que desejam trocar limites de crédito usando StarkCoins (Moeda fictícia da [StarkBank](https://starkbank.com/)). Neste aplicativo é possível realizar negociações para `Vender` créditos para outras empresas para obter débito, `Aumentar Limite` de crédito usando StarkCoins e `Comprar` crédito de outra empresa.
+O Projeto StarkCoin é um app de acessoria de crédido para cripto ativos da [StarkBank](https://starkbank.com/) voltado para usuários que desejam trocar limites de crédito usando StarkCoins (Moeda fictícia da [StarkBank](https://starkbank.com/)). Neste aplicativo é possível realizar negociações para `Vender` créditos para outras empresas para obter débito, `Aumentar Limite` de crédito usando StarkCoins e `Comprar` crédito de outra empresa.
 
 Essa funcionalidade tem por objetivo principal ajudar empresas a aumentarem o limite de crédito usando criptoativos da [StarkBank](https://starkbank.com/).
 
 ## Documentação
 
 Este projeto foi desenvolvido utilizando tecnologias de Front-End e Back-End.
+A API para a geração de um Modelo de Cotação da STC é apresentado em [Modelo STC](https://github.com/Matheus1714/hackathon-starkbank/tree/main/API_StarkbankCoin).
 
 ## Colaboradores
 
