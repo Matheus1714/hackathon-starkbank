@@ -1,4 +1,4 @@
-# Projeto StarkCoin
+# Projeto Starkbank Coin (SBC)
 
 O Projeto StarkCoin é um app de acessoria de crétido para cripto ativos da [StarkBank](https://starkbank.com/) voltado para usuários que desejam trocar limites de crédito usando StarkCoins (Moeda fictícia da [StarkBank](https://starkbank.com/)). Neste aplicativo é possível realizar negociações para `Vender` créditos para outras empresas para obter débito, `Aumentar Limite` de crédito usando StarkCoins e `Comprar` crédito de outra empresa.
 
